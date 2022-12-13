@@ -1,0 +1,103 @@
+body{
+  margin: 0px;
+  padding: 0px;
+  background-image: url(photos/bg.jpeg);
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.mainContatiner{
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20vh;
+}
+
+.definition{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 60vw;
+  height: 100vh;
+}
+
+.centeredParagraph{
+  font-size: 2vw;
+}
+
+.history{
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  width: 80vw;
+}
+
+.rightParagraph{
+  padding-left: 20vw;
+  font-size: 2vw;
+}
+
+.leftParagraph{
+  padding-right: 20vw;
+  font-size: 2vw;
+}
+
+.terms{
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  width: 80vw;
+}
+
+.examples{
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  margin-left: 8vw;
+  margin-right: 8vw;
+}
+
+.appreciate{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon{
+  display: flex;
+  justify-content: space-around;
+}
+
+.artist{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 84vw;
+  height: 100vh;
+}
+
+.artPieces{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 3vw;
+
+}
+
+.icon img{
+  width:15vw;
+}
+
+h2{
+  text-align: left;
+}
+
+h3{
+  text-align: right;
+}
