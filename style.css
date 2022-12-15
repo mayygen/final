@@ -11,7 +11,7 @@ body{
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 20vh;
+  gap: 10vh;
 }
 
 .definition{
@@ -25,10 +25,11 @@ body{
 
 .centeredParagraph{
   font-size: 2vw;
+  text-align: center;
+  line-height: 6vh;
 }
 
 .history{
-  background-color: white;
   display: flex;
   flex-direction: column;
   align-content: center;
@@ -38,15 +39,17 @@ body{
 .rightParagraph{
   padding-left: 20vw;
   font-size: 2vw;
+  line-height: 3.5vw;
 }
 
 .leftParagraph{
   padding-right: 20vw;
   font-size: 2vw;
+  line-height: 3.5vw;
+
 }
 
 .terms{
-  background-color: white;
   display: flex;
   flex-direction: column;
   align-content: center;
@@ -54,18 +57,21 @@ body{
 }
 
 .examples{
-  background-color: white;
   display: flex;
   flex-direction: column;
   margin-left: 8vw;
   margin-right: 8vw;
 }
-
+.examples img{
+  padding: 5vw;
+  background-color: rgb(255, 255, 255, 0.5)
+}
 .appreciate{
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  width: 80vw;
 }
 
 .icon{
@@ -82,22 +88,54 @@ body{
   height: 100vh;
 }
 
+.artist p{
+  font-size: 2vw;
+  line-height: 3.5vw;
+}
+
 .artPieces{
   display: flex;
   flex-direction: row;
   align-items: center;
-  gap: 3vw;
+  gap: 2vw;
+  padding: 2.5vw;
+  background-color: rgb(255, 255, 255, 0.5)
 
 }
 
 .icon img{
-  width:15vw;
+  height:35vh;
 }
 
 h2{
+  font-size: 3vw;
   text-align: left;
+  padding: 1vw;
+  background-color: rgb(0, 0, 0, 0.1)
+}
+h3{
+  font-size: 3vw;
+  padding: 1vw;
+  text-align: right;
+  background-color: rgb(0, 0, 0, 0.1)
 }
 
-h3{
-  text-align: right;
+.history p{
+  padding: 2vw;
+  background-color: rgb(255, 255, 255, 0.5)
+}
+
+.terms p{
+  padding: 2vw;
+  background-color: rgb(255, 255, 255, 0.5)
+}
+
+.examples p{
+  padding: 2vw;
+  background-color: rgb(255, 255, 255, 0.5)
+}
+
+.appreciate p{
+  padding: 2vw;
+  background-color: rgb(255, 255, 255, 0.5)
 }
